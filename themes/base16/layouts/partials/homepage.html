@@ -6,21 +6,21 @@
   <h1 class="headline">Recent Posts</h1>
 
   <div class="article-list">
-    {{ range first 3 (where .Data.Pages "Section" "post") }}
+    {{ range first 5 (where .Data.Pages "Section" "post") }}
       {{ partial "article-list-item.html" . }}
     {{ end }}
   </div>
 
 {{ with .Site.Taxonomies.categories }}
 
-  <h1 class="headline">Categories</h1>
+  <h2 class="headline">Categories</h2>
 
   <section class="categories">
     {{ range $name, $value := . }}
-    <h2 class="category">
+    <span class="category">
       <a href="{{ $baseurl }}categories/{{ $name | urlize }}">{{ title $name }}</a>
       <small>({{ .Count }})</small>
-    </h2>
+    </span>
     {{ end }}
   </section>
 
@@ -28,7 +28,7 @@
 
 {{ with .Site.Taxonomies.tags }}
 
-  <h1 class="headline">Tags</h1>
+  <h2 class="headline">Tags</h2>
 
   <section class="tags">
     {{ range $name, $value := . }}

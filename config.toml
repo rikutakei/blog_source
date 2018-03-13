@@ -1,7 +1,7 @@
 baseurl = "/"
 languageCode = "en-us"
 title = "A Hugo website"
-theme = "hugo-lithium-theme"
+theme = "base16"
 googleAnalytics = ""
 disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
@@ -13,6 +13,23 @@ relativeurls = true
 [[menu.main]]
     name = "About"
     url = "/about/"
+    weight = -200
+[[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = -100
+[[menu.main]]
+    name = "Categories"
+    url = "/categories/"
+    weight = -50
+[[menu.main]]
+    name = "R posts"
+    url = "/categories/r"
+    weight = -49
+[[menu.main]]
+    name = "Posts"
+    url = "/post/"
+    weight = -150
 [[menu.main]]
     name = "GitHub"
     url = "https://github.com/rstudio/blogdown"

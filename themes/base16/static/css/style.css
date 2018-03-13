@@ -21,8 +21,8 @@
 
 body {
   margin: 0;
-  background-color: #2d2d2d;
-  color: #f2f0ec;
+  background-color: #fdf6e3;
+  color: #2d2d2d;
   line-height: 1.5;
   font-size: 100%;
   font-family: 'Source Code Pro', monospace;
@@ -50,15 +50,15 @@ div.clearfix {
 
 article.single section,
 .article-list article {
-  background-color: #f2f0ec;
+  background-color: #eee8d5;
   color: #2d2d2d;
   padding-left: 128px;
-  padding-left: 8rem;
+  padding-left: 5rem;
   padding-right: 128px;
-  padding-right: 8rem;
-  padding-top: 16px;
+  padding-right: 5rem;
+  padding-top: 10px;
   padding-top: 1rem;
-  padding-bottom: 16px;
+  padding-bottom: 10px;
   padding-bottom: 1rem;
 }
 
@@ -71,7 +71,7 @@ article.single section,
 }
 
 header, footer {
-  background-color: #393939;
+  background-color: #eee8d5;
   padding-top: 16px;
   padding-top: 1rem;
   padding-bottom: 16px;
@@ -147,6 +147,36 @@ header span.caret {
   color: #f2f0ec;
 }
 
+/* Navigation Layout */
+
+.nav {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 0 150px;
+	text-align: justify;
+}
+
+.nav-links {
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	list-style: none;
+}
+
+.nav-links li {
+	display: inline-block;
+	margin: 0 0 0 15px;
+}
+
+.nav-links li:first-child {
+	margin-left: 0;
+}
+
+.nav-links a {
+	text-decoration: none;
+	color: #6699cc;
+}
+
 /* Footer Layout */
 
 footer a {
@@ -201,7 +231,12 @@ footer a {
 
 .homepage h1.headline {
   font-size: 3em;
-  color: #ffcc66;
+  color: #f2777a;
+}
+
+.homepage h2.headline {
+  font-size: 2em;
+  color: #f2777a;
 }
 
 @media (max-width: 52em) {
@@ -231,7 +266,7 @@ footer a {
 }
 
 .homepage .tag {
-  margin-right: 2em;
+  margin-right: 0em;
 }
 
 /* Post List Layout */
@@ -243,11 +278,16 @@ footer a {
 
 .article-list article {
   padding-top: 64px;
-  padding-top: 4rem;
+  padding-top: 2rem;
+  padding-left: 64px;
+  padding-left: 2rem;
+  padding-right: 64px;
+  padding-right: 2rem;
   padding-bottom: 64px;
-  padding-bottom: 4rem;
+  padding-bottom: 2rem;
   margin-bottom: 64px;
-  margin-bottom: 4rem;
+  margin-bottom: 1rem;
+  text-align: justify;
 }
 
 .article-list article h2.headline,
