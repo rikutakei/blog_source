@@ -1,8 +1,25 @@
 {{ partial "header.html" . }}
 <main role="main" class="article-list">
   <h1 class="list-title">{{ .Title }}</h1>
-  {{ range .Data.Pages }}
-    {{ partial "article-list-item.html" . }}
+  <div class="article-list">
+    {{ $paginator := .Paginate (.Data.Pages) }}
+    {{ range $paginator.Pages }}
+      {{ partial "article-list-item.html" . }}
+    {{ end }}
+  </div>
+
+  {{ if gt .Paginator.TotalPages 1 }}
+
+  <nav class="pagination">
+	  <a>{{ $paginator.PageNumber}} of {{ $paginator.TotalPages}}</a>
+	  {{ if $paginator.HasPrev }}
+	  <a class="newer-posts" href="{{ $paginator.Prev.URL }}"> &laquo; Prev </a>
+	  {{ end }}
+	  {{ if $paginator.HasNext}}
+	  <a class="older-posts" href="{{ $paginator.Next.URL }}"> Next &raquo; </a>
+	  {{ end }}
+  </nav>
+
   {{ end }}
 </main>
 {{ partial "footer.html" . }}
