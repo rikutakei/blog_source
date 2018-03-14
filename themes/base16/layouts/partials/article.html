@@ -2,11 +2,11 @@
 <article class="single" itemscope itemtype="http://schema.org/BlogPosting">
   <div class="meta">
 {{ if eq $dateMissing false }}
-    <span class="key">published on</span>
+    <span class="key">Published on</span>
     <span class="val"><time itemprop="datePublished" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 02, 2006" }}</time></span>
 {{ end }}
 {{ with .Params.categories }}
-    <span class="key">{{ if eq $dateMissing true }}published {{ end }}in</span>
+    <span class="key">{{ if eq $dateMissing true }}Published {{ end }}in</span>
     <span class="val">
 {{ range . }}
         <a href="{{ $baseurl }}categories/{{ . | urlize }}">{{ . }}</a>
@@ -15,7 +15,7 @@
 {{ end }}
 {{ with .Params.tags }}
     <br>
-    <span class="key">tags:</span>
+    <span class="key">Tags:</span>
     <span class="val">
 {{ range . }}
         <a href="{{ $baseurl }}tags/{{ . | urlize }}">{{ . }}</a>
