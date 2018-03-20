@@ -42,6 +42,11 @@ div.clearfix {
   overflow: auto;
 }
 
+div.footnotes {
+  font-size: 12px;
+  text-align: justify;
+}
+
 @media (max-width: 52em) {
   .container {
     width: 100%;
@@ -60,6 +65,7 @@ article.single section,
   padding-top: 1rem;
   padding-bottom: 10px;
   padding-bottom: 1rem;
+  text-align: justify;
 }
 
 @media (max-width: 52em) {
