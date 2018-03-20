@@ -13,6 +13,10 @@ paginatePath = "page"
     post = "/:year/:month/:day/:slug/"
 
 [[menu.main]]
+    name = "Archives"
+    url = "/archives/"
+    weight = -200
+[[menu.main]]
     name = "About"
     url = "/about/"
     weight = -200
