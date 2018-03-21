@@ -13,4 +13,5 @@ I've added `public` (and just in case `public/*` as well) in the `.gitignore` fi
 
 # TODO
 * Add links to the other repo/program/website to README
+* Change colourscheme of syntax highlighting
 
