@@ -55,7 +55,6 @@ div.footnotes {
 
 article.single section,
 .article-list article {
-  /* background-color: #eee8d5; */
   background-color: #fdf6e3;
   color: #2d2d2d;
   padding-left: 128px;
@@ -78,7 +77,6 @@ article.single section,
 }
 
 header, footer {
-  /* background-color: #eee8d5; */
   background-color: #fdf6e3;
   padding-top: 16px;
   padding-top: 1rem;
