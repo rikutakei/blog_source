@@ -16,9 +16,8 @@
 
 	<header>
 		<nav class="nav">
-			<ul class="nav-links">
-				<a class="path" href="{{ .Site.BaseURL }}">[{{ .Site.Title }}]</a>
-				# _
+			<ul class="nav-links" style="text-align: center">
+				<a class="path" href="{{ .Site.BaseURL }}">Home</a>
 				{{ range .Site.Menus.main }}
 				<li> <a href="{{ .URL }}">{{ .Name }}</a></li>
 				{{ end }}

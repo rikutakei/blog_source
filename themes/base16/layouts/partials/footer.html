@@ -3,7 +3,13 @@
 
 <footer>
   <div class="container">
-    <span class="copyright">&copy; {{ if eq $dateMissing true }}{{ .Site.LastChange.Format "2006" }}{{ else }}{{ .Date.Format "2006" }} {{ end }} {{ .Site.Title }} - <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></span>
+      <h6>
+          <span class="copyright">&copy; {{ if eq $dateMissing true }}{{ now.Format "2006" }}{{ else }}{{ now.Format "2006" }} {{ end }} {{ .Site.Title }},
+          <span class="base03"> generated with a modified </span>
+          <span class="base03">[</span><span class="base08">b</span><span class="base09">a</span><span class="base0a">s</span><span class="base0b">e</span><span class="base0c">1</span><span class="base0d">6</span><span class="base03">]</span>
+          <span class="base03"># _ theme</span>
+          - <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></span>
+      </h6>
   </div>
 </footer>
 
