@@ -3,13 +3,13 @@ disqusShortname = ""
 googleAnalytics = ""
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 languageCode = "en-us"
-paginate = 2
+paginate = 5
 paginatePath = "page"
 pygmentsCodefences = true
 pygmentsUseClasses = true
 relativeurls = true
 theme = "base16"
-title = "A Hugo website"
+title = "Riku's Blog"
 watch = true
 
 [permalinks]
@@ -31,20 +31,16 @@ watch = true
     name = "Categories"
     url = "/categories/"
     weight = -50
-[[menu.main]]
-    name = "R posts"
-    url = "/categories/r"
-    weight = -49
-[[menu.main]]
-    name = "Posts"
-    url = "/post/"
-    weight = -150
+#[[menu.main]]
+#    name = "R posts"
+#    url = "/categories/r"
+#    weight = -49
 [[menu.main]]
     name = "GitHub"
-    url = "https://github.com/rstudio/blogdown"
-[[menu.main]]
-    name = "Twitter"
-    url = "https://twitter.com/rstudio"
+    url = "https://github.com/rikutakei"
+# [[menu.main]]
+#     name = "Twitter"
+#     url = "https://twitter.com/rstudio"
 
 [params]
     description = "A website built through Hugo and blogdown."
