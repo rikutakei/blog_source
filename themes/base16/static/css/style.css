@@ -484,7 +484,7 @@ article.single pre {
   margin-top: 0;
   margin-bottom: 16px;
   margin-bottom: 1rem;
-  overflow-x: scroll;
+  overflow-x: auto;
   border-radius: 3px;
   padding: 32px;
   padding: 2rem;
