@@ -12,7 +12,7 @@ I'm an Assistant Research Fellow at the University of Otago, working on projects
 I have worked with a variety of data during my Masters and my current job, including microarrays, RNA-seq, genotype data, and methylation microarray data.
 
 I think I'm pretty good with using terminal, but I'd say I'm better at using Google.
-I mainly work on a Mac/Unix computer (`ssh`ing into a RHEL server, or a NeSI computer), and have Arch Linux running at home.
+I mainly work on a Mac/Unix computer (`ssh`ing into a linux server, or a NeSI computer), and have Arch Linux running at home.
 No, I don't use Windows --- ditched that shite of an OS since 2014 and I'm _**never**_ going back.
 
 I've got a bad habit where, when I get interested in something, I _really_ get into it until I get a good idea of how it works or become (relaticely) good at it.
