@@ -4,8 +4,8 @@ author: "Riku Takei"
 date: "2018-03-22"
 ---
 
-<!-- <img style="width: 25%; float: left; margin-right: 25px" src="../profile.jpeg"/> -->
-<img style="width: 25%; float: left; margin-right: 25px" src="../profile.jpg"/>
+<!-- <img style="width: 25%; float: left; margin-right: 25px" src="/images/profile.jpeg"/> -->
+<img style="width: 25%; float: left; margin-right: 25px" src="/images/profile.jpg"/>
 Hi there, I'm Riku.
 
 I'm an Assistant Research Fellow at the University of Otago, working on projects geared towards Bioinformatics.
