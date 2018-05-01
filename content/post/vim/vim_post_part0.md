@@ -12,7 +12,8 @@ Vim is awesome.
 
 It's fast, "robust", and it's always there when you need it the most.
 
-I was first introduced to Vim in my first year of MSc and, although it took me weeks and perhaps months of struggling and Google searching to become proficient in it, I have no regret learning how to use it.
+I was first introduced to Vim in my first year of MSc.
+It took me weeks and perhaps months of struggling and Google searching to become proficient in it, but I have no regret learning how to use it.
 
 Of course, there are other editors out there like Atom, nano and Emacs, and you should pick the one that suits you the best.
 For me, it was Vim.
@@ -39,7 +40,7 @@ Perhaps Google search "vim emacs pros cons" and you might find a whole StackOver
 
 #### 1. It can be found on any linux computer
 
-As far as I know, Vi/Vim and nano are the two text editors that are installed by default on __*ANY*__ linux computer.
+Vi/Vim and nano are the two text editors that I know for sure that are installed by default on __*ANY*__ linux computer.
 
 This means that, as long as it's a linux computer, you can code on that computer as per usual.
 
