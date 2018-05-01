@@ -1,0 +1,16 @@
+---
+title: "{{ replace .TranslationBaseName "-" " " | title }}"
+date: {{ .Date }}
+author: "Riku Takei"
+categories: ["R"]
+tags: ["R Markdown"]
+output:
+  md_document:
+    variant: markdown_strict+yaml_metadata_block
+    fig_caption: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+```
+

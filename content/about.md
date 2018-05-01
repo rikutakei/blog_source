@@ -4,16 +4,16 @@ author: "Riku Takei"
 date: "2018-03-22"
 ---
 
-<!-- <img style="width: 25%; float: left; margin-right: 25px" src="../profile.jpeg"/> -->
-<img style="width: 25%; float: left; margin-right: 25px" src="../profile.jpg"/>
+<!-- <img style="width: 25%; float: left; margin-right: 25px" src="/images/profile.jpeg"/> -->
+<img style="width: 25%; float: left; margin-right: 25px" src="/images/profile.jpg"/>
 Hi there, I'm Riku.
 
 I'm an Assistant Research Fellow at the University of Otago, working on projects geared towards Bioinformatics.
 I have worked with a variety of data during my Masters and my current job, including microarrays, RNA-seq, genotype data, and methylation microarray data.
 
-I think I'm pretty good with using terminal and programming, but I'd say I'm better at using Google.
-I mainly work on a Mac/Unix computer (`ssh`ing into a RHEL server, or a NeSI computer), and have Arch Linux running at home.
-No, I don't use Windows -- ditched that shite of an OS since 2014 and I'm _**never**_ going back.
+I think I'm pretty good with using terminal, but I'd say I'm better at using Google.
+I mainly work on a Mac/Unix computer (`ssh`ing into a linux server, or a NeSI computer), and have Arch Linux running at home.
+No, I don't use Windows --- ditched that shite of an OS since 2014 and I'm _**never**_ going back.
 
 I've got a bad habit where, when I get interested in something, I _really_ get into it until I get a good idea of how it works or become (relatively) good at it.
 Past examples include: Vim, LaTeX, and this website/blog (Hugo).
