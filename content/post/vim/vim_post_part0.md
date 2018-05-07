@@ -95,8 +95,8 @@ I guess this can come under the previous point, but oh well.
 The way you edit in Vim is quite different to other text editors -- you don't click or move the cursor to position where you want it to be, and then start typing.
 Rather, you enter a specific _"mode"_ to write the text, then enter a different mode to edit/manipulate that text.
 
-It's like comparing LaTeX and MS Word -- they both do the same thing (make a document), but one is much easier and straightforward (just typing text), and the other requires you to "program" the document.
-However, the quality of the end product is significantly different.
+It's like having multiple pens/pencils/crayons/paintbrushes to draw or write something.
+But different tools allow you to do different stuff, and that makes Vim both powerful and flexible.
 
 # Summary
 
