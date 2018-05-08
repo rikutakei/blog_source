@@ -17,12 +17,12 @@ There are a couple of reasons why you shouldn't (or perhaps *can't*) use the mou
 Firstly, you probably won't be able to use a mouse on your terminal screen (where you are running Vim), especially if you are remotely connected to a different computer via `ssh`.
 
 This means that you'll have to use the arrow keys to move the cursor around.
-But using the arrow keys to move the cursor to the correct position is ***very*** slow and irritating, so you'll probably ditch that option and revert back to whatever editor you were using previously instead of Vim so you can use your mouse.
+But using the arrow keys to move the cursor to the correct position is ***very*** slow and irritating, so you'll probably ditch that option and revert back to whatever editor you were using previously instead of Vim, so you can use your mouse.
 
 There must be an easier way to move around efficiently, without a mouse or arrow keys, right?
 Or otherwise I wouldn't be writing this post in the first place.
 
-So in this post, I am going to go through a variety of ways to let you move around the file quickly and efficiently.
+So in this post, I am going to go through a variety of ways to let you move around the file quickly.
 Once you've mastered these, I can guarantee you that using the mouse or arrow keys will become tedious.
 
 Also, just a quick note that all of the moving around is done in **Normal** mode.
@@ -47,7 +47,7 @@ And this is part of the reason why you shouldn't use a mouse or the arrow keys w
 
 ## Arrow keys on the home row
 
-So, if you shouldn't use the traditional arrow keys down the bottom left hand corner of the keyboard, what should you use instead?
+So, if you shouldn't use the traditional arrow keys down the bottom right hand corner of the keyboard, what should you use instead?
 
 Well, you should use the `h`, `j`, `k`, and `l` keys, which corresponds to the right, down, up, and left arrow keys, respectively.
 
@@ -71,6 +71,7 @@ Take the following sentence as an example, where the cursor is placed on the let
 Pressing `e` would move the cursor to the letter 'e' right before the comma, and pressing `b` would move you back to letter 'a' where you began.
 
 Now, pressing `w` would move the cursor *on* the comma, because Vim considers 'awesome' as a word, and the beginning of the next "word" is the comma.
+Pressing `w` again would put the cursor on the letter 'b' in 'but'.
 
 ## Moving within a line
 
@@ -95,7 +96,7 @@ I don't use `f` and `t` keys regularly, but it's handy to know that there's a wa
 
 To be honest, I don't really use these keys, but I *should* use these more often.
 
-The `(` and `)` keys let's you move to the beginning of the previous or the next paragraph.
+The `(` and `)` keys lets you move to the beginning of the previous or the next paragraph.
 
 Similar, but slightly different, are the `{` and `}` keys, where it lets you skip to the previous and the next **blank line** that follows a paragraph, respectively.
 
@@ -123,12 +124,12 @@ There is a lot more to talk about searching, but I think I will save it for a la
 
 # Summary
 
-There you go -- I think I covered most, if not all, of the cursor movements available in Vim.
+There you go -- I think I have covered most of the cursor movements available in Vim.
 
 You won't master these keys in a day or two, and it will take time for you to remember.
 But once you remember them, everything will become natural -- it will be engrained into your muscle memory, and you won't even have to think about how to move around to a particular position.
 
-Before I wrap up, here are the list of keys I discussed in this post:
+Before I wrap up, here is the list of keys I discussed in this post:
 
 * h/j/k/l -- alternative arrow keys
 * w/e/b -- word-wise movement

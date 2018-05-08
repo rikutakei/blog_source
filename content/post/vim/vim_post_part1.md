@@ -15,14 +15,18 @@ But where do you begin?
 Google is usually a good place to begin your search of "How do I learn Vim".
 And it will probably tell you to go to a random Vim emulator website and/or tell you to fire up `vimtutor` on the command line to "get used to Vim".
 
-I personally disagree with this methodology.
+Although `vimtutor` isn't too bad, I don't really like emulators and the likes because:
 
-Yes, you have to get used to Vim somehow, but these programs and emulators are not good for this -- I don't think you will learn anything useful from them, other than how to edit stuff the way you normally would.
-In other words, you are better off using what you have already been using if you are going to "learn" Vim this way.
+1. It only teaches you the most basic keys and commands, and yet misses the minor (but important) keys/commands that will make your life easier
+2. It feels like the order you learn things from these programs are disjointed and not very logical
+3. It's a "crash course" without notes, and you're probably unlikely to remember the keys/commands after finishing the tutorial
 
-So, to avoid this from happening, I am going to go through some stuff that *_I_* believe is a bare minimum to get you started with Vim, without losing audience (which is a huge challenge for any Vim tutorial).
+So, I am going to go through some stuff that *_I_* believe is a bare minimum to get you started with Vim -- enough so that you'll be able to perform day-to-day editing tasks with ease.
+Also, you'll be able to keep the page open for quick reference while you try out the commands out in Vim.
 
-In the upcoming series of posts, I would like to first cover the basic concepts of Vim, and then introduce you to some of the commands/keys in Vim (that you probably won't learn in the basic tutorials) to get you started.
+&nbsp;
+
+In the upcoming series of posts, I would like to first cover the basic concepts of Vim, and then introduce you to some of the commands/keys in Vim to get you started.
 
 Specifically, I would like to cover:
 
@@ -67,7 +71,7 @@ This mode will undoubtedly be the most used mode in Vim, because the main purpos
 
 *Editing* something and *writing* something are two completely different tasks, and I hope we can all agree that editing requires more effort and time than writing.
 
-Now, this means that this mode doesn't do a good job of actually *writing* whatever you want to write.
+Now, this means that this mode doesn't do a good job of actually *writing* whatever you want to write, so people usually panic when nothing happens when they try typing stuff.
 And, better yet, Vim has a cryptic way to exit out of its program, which leads to the classic *"How do I get out of this shit hole"* problem (answer to this is further down the page).
 
 So then, how do you actually *write* stuff?
@@ -81,7 +85,7 @@ When you enter insert mode, you are in an interface equivalent to your other edi
 So, how do you enter insert mode?
 Easy -- just press `i` once  when you are in normal mode, and you should be able to type whatever you want.
 
-While you are in insert mode, note that there should be some text on the bottom right hand corner that look like `-- INSERT --`.
+While you are in insert mode, note that there should be some text on the bottom left hand corner that look like `-- INSERT --`.
 This shows you that you are in insert mode.
 
 Once you're done with editing, just press `esc` button to go back to normal mode and you should see the `-- INSERT --` text disappear, and you are back in normal mode.
@@ -97,7 +101,7 @@ The thing is, *visual mode doesn't require you to use the mouse to select texts*
 
 I'll touch on this a little bit later, but for now, just press `v` in normal mode to enter visual mode.
 
-Again, you should see `-- VISUAL --` at the bottom right hand corner of the screen, and pressing `esc` should put you back into normal mode.
+Again, you should see `-- VISUAL --` at the bottom left hand corner of the screen, and pressing `esc` should put you back into normal mode.
 
 Easy, right?
 
@@ -126,9 +130,9 @@ However, for people who can't be bothered typing out `quit` and `write` every ti
 So now we can see that by typing `:q`, we are telling Vim to quit --  but what does the `!` mark do?
 
 The `!` mark tells Vim to ***force*** the command to be executed.
-In other words, it tells Vim to quit out even if it has some errors or warnings along the way -- for example, a warning to the user that there is an unsaved changes in the file.
+In other words, it tells Vim to quit out even if it has some errors or warnings along the way -- for example, a warning to the user that there are unsaved changes in the file.
 
-So, taken together, we see that by typing `:q!`, we are telling Vim to force quit out of Vim, without saving any changes made to the file.
+So, taken together, we see that by typing `:q!`, we are telling Vim to force quit out of Vim without saving any changes made to the file.
 Obviously, you can save the file first by typing `:w` and then `:q` (or `:wq` to save and quit in a single command).
 
 *(Don't forget to press `enter` after each command!)*
