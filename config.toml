@@ -9,6 +9,7 @@ paginatePath = "page"
 pygmentsCodefences = true
 pygmentsUseClasses = true
 relativeurls = true
+rssLimit = 10
 theme = "base16"
 title = "Riku's Blog"
 watch = true
@@ -42,6 +43,11 @@ watch = true
 # [[menu.main]]
 #     name = "Twitter"
 #     url = "https://twitter.com/rstudio"
+
+[sitemap]
+    changefreq = "daily"
+    filename = "sitemap.xml"
+    priority = 0.5
 
 [params]
     description = "A website built through Hugo and blogdown."

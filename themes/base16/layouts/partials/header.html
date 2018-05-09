@@ -15,12 +15,19 @@
 <body>
 
 	<header>
+		{{ range .AlternativeOutputFormats -}}
+		{{ printf `<link rel="%s" type="%s+%s" href="%s" title="%s" />` .Rel .MediaType.Type .MediaType.Suffix .Permalink $.Site.Title | safeHTML }}
+		{{ end -}}
+		{{ if .RSSLink }}
+		<link rel="alternate" type="application/rss+xml" href="{{ .RSSLink | relURL }}" title="{{ .Site.Title }}">
+		{{ end }}
 		<nav class="nav">
 			<ul class="nav-links" style="text-align: center">
 				<a class="path" href="{{ .Site.BaseURL }}">Home</a>
 				{{ range .Site.Menus.main }}
 				<li> <a href="{{ .URL }}">{{ .Name }}</a></li>
 				{{ end }}
+				<li> <a href="{{ .Site.RSSLink | relURL }}" type="application/rss+xml" target="_blank"> <img src="images/social-rss-outline.png" alt="RSS" style="width:25px;height:25px;border:0; vertical-align: -6px"> </a> </li>
 			</ul>
 		</nav>
 		<div class="right">
